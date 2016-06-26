@@ -1,0 +1,388 @@
+@color1 : #434e55;		@colorf : #353f47;
+@color2 : #4bcaff;
+@cw : #fff;
+@color3 :#4bcaff;
+@colorbg :#515f67;
+@colorinv :rgba(255, 0, 0, 0);
+@imgbg : url(img/blueasy-freebie.png);
+*{margin: 0;padding: 0}
+body{
+	background: @colorbg;
+
+} 
+ul{
+	list-style-type: none;
+}
+section{
+	padding-bottom: 55.8px;
+	padding-top: 55.8px;
+}
+header{
+/*	background: url(../img/bgheader.png);*/
+	background: url(../img/bgheader.png) no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+ 	height: 525.25px;
+ 	// height: auto;
+
+}
+/*.container{
+	width: 61%;
+	margin:0 auto;
+}
+*/
+.container-fluid {
+	width: 100%;
+
+	
+}
+.w{
+	color: @cw;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	font-weight: lighter;
+}
+.w-u{
+	.w;
+	text-transform: uppercase;
+	font-size: 30px;
+	}
+.w-u1{
+	.w;
+	text-transform: uppercase;
+	font-size: 23px;
+
+}
+.w-u2{
+	.w;
+	font-size: 18px;
+}
+.w-u3{
+	.w;
+	font-size: 15px;
+}
+.n-u{
+	text-transform: uppercase;
+	color: #626f76;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+
+}
+.n-u4{
+	color: #626f76;
+	font-size: 25px;
+	font-weight: lighter;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+}
+.navbar-default {
+	margin-top: 20px;
+    background: @colorinv;
+    width: 100%;
+    border-color: @colorinv; 
+}
+
+.navbar-default .navbar-brand {
+    color: #f5f5f5;
+}
+
+.hover{
+	
+    margin:13px 16px 15px 7px;
+    background-color: @colorinv;
+    padding: 2px;
+    border : 1px solid @color2;
+    display: block; 
+    color: @color2;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  .hover;
+}
+.navbar-default .navbar-nav>li>a {
+    // .w;
+    // text-transform: uppercase;
+    // // padding: 2px;
+    // border : 1px solid @colorinv;
+    text-transform: uppercase;
+    margin:13px 16px 15px 7px;
+    background-color: @colorinv;
+    padding: 2px;
+    border : 1px solid @colorinv;
+    display: block; 
+    color: @cw;
+
+}
+.navbar-default .navbar-nav>li>a:hover{
+	.hover
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+#menuhead{
+	margin: 0 auto;
+	width: 100%;
+	height:98.67px; 
+	background: rgba(81, 95, 103, 0.75);
+	
+}
+#navs{
+	width: 61%;
+	height: 100%;
+	/*position: absolute;*/
+	margin: 0 auto;
+}
+.highlight {
+	margin: 0 auto;
+	
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	font-weight: lighter;
+	background: rgba(81, 95, 103, 0.75); 
+	font-size: 30px;
+}
+#cover div div {
+	margin-top: 150px;
+	#p1{
+		.highlight;
+		// line-height: 60px;
+		width:50%;
+	}
+	
+	#p2{
+		.highlight;
+		width: 65%;
+	}
+}
+
+
+/*Service*/
+
+#service{
+	height: auto;
+	background: @color3;
+}
+.titles{
+	p{
+	margin:0px 0 -10px;
+}
+}
+.colser{
+	margin-top: 30px;
+	img {
+		margin-bottom: 20px;
+	};
+	p{
+		margin-bottom: 20px;
+	}
+}
+
+
+// PORFOLIO
+
+
+#portfolio{
+	background: #fff;
+}
+
+#submenu{
+	margin-bottom: 55.8px;
+ ul{
+
+	// margin-top:55.8px;
+	li{
+		float : left;
+		padding: 8px 10px;
+		margin-left: 15px;
+		background-color: @colorinv;
+		a{
+			text-transform: uppercase;
+			font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+			font-weight: lighter;
+			color: #626f76;
+		}
+	}
+}
+ 	li:hover{
+		float : left;
+		padding: 8px 10px 5px 10px;
+		background-color: @colorinv;
+	    margin-left: 13px;
+	    border : 1px solid @color2;
+	    display: block;
+	    
+	 
+	    a{
+	    	color : @color2;
+	    	text-decoration: none;
+	    	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+			font-weight: lighter;
+	    }
+}
+}
+#test1{
+	background: #000;
+	height: 50px;
+}
+#img8 div div img{
+	max-width: 100%;
+	// margin-top: 23px;
+}
+.hovers{
+	// width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin:  0 0 23px 0  ;
+}
+.inner{
+	// margin: 0 auto;
+	top: 45%;
+	left: 45%;
+	// right:50%;
+	// bottom: 100px;
+	position: absolute;
+	opacity: 0;
+}
+.hovers:hover .inner {
+	display:block;
+  	transform:translateX(0);transition: all 2s;
+  	opacity: 1;
+}
+.hovers:before {
+	content: "";
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom: 0;
+	background: #444f56;
+	opacity: 0;
+	transform : scale(0.1,0.1);
+	transition:all 0.5s;
+
+
+}
+.hovers:hover:before{
+	opacity: 0.7;
+	transform : scale(1,1);
+	transition: all 0.5s;
+}
+
+
+
+//who is
+#john-doe{
+	background: url(../img/bgdoe.png) no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+//   Twitter
+#twitter{
+	height: auto;
+	background: @color3;
+	
+}
+.titles p i{
+	color: @cw;
+	font-size: 30px;
+}
+.buttons{
+	border: 1px solid #353f46;
+	background: @colorinv;
+	padding: 7px 15px;
+	text-transform: uppercase;
+}
+.buttons:hover{
+
+	border: 1px solid @color3;
+	color: @color3;
+}
+
+
+
+//Who is doe
+
+.icons i{
+	font-size: 23px;
+	color:@cw;
+	border : 1px solid @cw;
+	padding:15px;
+	margin-right: 10px;
+}
+
+
+#testimonials{
+	height: auto;
+	background: @cw;
+}
+#text1{
+	margin-top: 21px;
+
+}
+.i1{
+	width: 100%;
+	height: 50px;
+	background: @colorinv;
+	border:2px solid #f5f5f5;
+	margin-bottom: 20px;
+	color: @cw;
+}
+#textarea{
+	width: 100%;
+	height: 200px;
+	color: @cw;
+	background: @colorinv;
+	border:2px solid #f5f5f5;
+}
+#quote-r{
+	color: #515f67;
+}
+#quote{
+
+	color: @color3;
+}
+.w-u11{
+	.w-u1;
+	font-size: 15px;
+}
+.w-u4{
+	.w;
+	font-size: 25px;
+}
+#messages{
+	// margin-top: 23px;
+	width: 100%;
+	height: 46px;
+	margin: 0 auto;
+	background: @color3;
+	border: 0;
+
+}
+button#messages {
+    margin-top: 30px;
+}
+// footer 
+#footer {
+	background: @colorf;
+	padding-top: 55.8px;
+	padding-bottom: 55.8px;
+	div{
+		div{
+			div{
+
+				a{
+					text-transform: uppercase;
+					font-size: 13px;
+					color: #434f57;
+				}
+			}
+		}
+	}
+}

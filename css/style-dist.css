@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #515f67;
+}
+ul {
+  list-style-type: none;
+}
+section {
+  padding-bottom: 55.8px;
+  padding-top: 55.8px;
+}
+header {
+  /*	background: url(../img/bgheader.png);*/
+  background: url(../img/bgheader.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 525.25px;
+}
+/*.container{
+	width: 61%;
+	margin:0 auto;
+}
+*/
+.container-fluid {
+  width: 100%;
+}
+.w {
+  color: #fff;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+}
+.w-u {
+  color: #fff;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.w-u1 {
+  color: #fff;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 23px;
+}
+.w-u2 {
+  color: #fff;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+.w-u3 {
+  color: #fff;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.n-u {
+  text-transform: uppercase;
+  color: #626f76;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
+.n-u4 {
+  color: #626f76;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
+.navbar-default {
+  margin-top: 20px;
+  background: rgba(255, 0, 0, 0);
+  width: 100%;
+  border-color: rgba(255, 0, 0, 0);
+}
+.navbar-default .navbar-brand {
+  color: #f5f5f5;
+}
+.hover {
+  margin: 13px 16px 15px 7px;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 2px;
+  border: 1px solid #4bcaff;
+  display: block;
+  color: #4bcaff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  margin: 13px 16px 15px 7px;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 2px;
+  border: 1px solid #4bcaff;
+  display: block;
+  color: #4bcaff;
+}
+.navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+  margin: 13px 16px 15px 7px;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 2px;
+  border: 1px solid rgba(255, 0, 0, 0);
+  display: block;
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  margin: 13px 16px 15px 7px;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 2px;
+  border: 1px solid #4bcaff;
+  display: block;
+  color: #4bcaff;
+}
+.navbar-nav {
+  float: right;
+  margin: 0;
+}
+#menuhead {
+  margin: 0 auto;
+  width: 100%;
+  height: 98.67px;
+  background: rgba(81, 95, 103, 0.75);
+}
+#navs {
+  width: 61%;
+  height: 100%;
+  /*position: absolute;*/
+  margin: 0 auto;
+}
+.highlight {
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  background: rgba(81, 95, 103, 0.75);
+  font-size: 30px;
+}
+#cover div div {
+  margin-top: 150px;
+}
+#cover div div #p1 {
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  background: rgba(81, 95, 103, 0.75);
+  font-size: 30px;
+  width: 50%;
+}
+#cover div div #p2 {
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  background: rgba(81, 95, 103, 0.75);
+  font-size: 30px;
+  width: 65%;
+}
+/*Service*/
+#service {
+  height: auto;
+  background: #4bcaff;
+}
+.titles p {
+  margin: 0px 0 -10px;
+}
+.colser {
+  margin-top: 30px;
+}
+.colser img {
+  margin-bottom: 20px;
+}
+.colser p {
+  margin-bottom: 20px;
+}
+#portfolio {
+  background: #fff;
+}
+#submenu {
+  margin-bottom: 55.8px;
+}
+#submenu ul li {
+  float: left;
+  padding: 8px 10px;
+  margin-left: 15px;
+  background-color: rgba(255, 0, 0, 0);
+}
+#submenu ul li a {
+  text-transform: uppercase;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  color: #626f76;
+}
+#submenu li:hover {
+  float: left;
+  padding: 8px 10px 5px 10px;
+  background-color: rgba(255, 0, 0, 0);
+  margin-left: 13px;
+  border: 1px solid #4bcaff;
+  display: block;
+}
+#submenu li:hover a {
+  color: #4bcaff;
+  text-decoration: none;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+}
+#test1 {
+  background: #000;
+  height: 50px;
+}
+#img8 div div img {
+  max-width: 100%;
+}
+.hovers {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 23px 0  ;
+}
+.inner {
+  top: 45%;
+  left: 45%;
+  position: absolute;
+  opacity: 0;
+}
+.hovers:hover .inner {
+  display: block;
+  transform: translateX(0);
+  transition: all 2s;
+  opacity: 1;
+}
+.hovers:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #444f56;
+  opacity: 0;
+  transform: scale(0.1, 0.1);
+  transition: all 0.5s;
+}
+.hovers:hover:before {
+  opacity: 0.7;
+  transform: scale(1, 1);
+  transition: all 0.5s;
+}
+#john-doe {
+  background: url(../img/bgdoe.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#twitter {
+  height: auto;
+  background: #4bcaff;
+}
+.titles p i {
+  color: #fff;
+  font-size: 30px;
+}
+.buttons {
+  border: 1px solid #353f46;
+  background: rgba(255, 0, 0, 0);
+  padding: 7px 15px;
+  text-transform: uppercase;
+}
+.buttons:hover {
+  border: 1px solid #4bcaff;
+  color: #4bcaff;
+}
+.icons i {
+  font-size: 23px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px;
+  margin-right: 10px;
+}
+#testimonials {
+  height: auto;
+  background: #fff;
+}
+#text1 {
+  margin-top: 21px;
+}
+.i1 {
+  width: 100%;
+  height: 50px;
+  background: rgba(255, 0, 0, 0);
+  border: 2px solid #f5f5f5;
+  margin-bottom: 20px;
+  color: #fff;
+}
+#textarea {
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  background: rgba(255, 0, 0, 0);
+  border: 2px solid #f5f5f5;
+}
+#quote-r {
+  color: #515f67;
+}
+#quote {
+  color: #4bcaff;
+}
+.w-u11 {
+  color: #fff;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-size: 15px;
+}
+.w-u4 {
+  color: #fff;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+#messages {
+  width: 100%;
+  height: 46px;
+  margin: 0 auto;
+  background: #4bcaff;
+  border: 0;
+}
+button#messages {
+  margin-top: 30px;
+}
+#footer {
+  background: #353f47;
+  padding-top: 55.8px;
+  padding-bottom: 55.8px;
+}
+#footer div div div a {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #434f57;
+}
