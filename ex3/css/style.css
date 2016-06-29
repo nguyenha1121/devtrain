@@ -182,7 +182,6 @@ ul.dropdown-menu {
 }
 .ensuit > div > div {
   padding-bottom: 50px;
-  padding-top: 50px;
 }
 .latestworks {
   padding-top: 40px;
@@ -236,7 +235,10 @@ footer > div {
 footer > div > div {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0;
+  margin: 0 0;
+}
+.aft {
+  color: #000;
 }
 #i1 {
   width: 24%;
