@@ -67,7 +67,9 @@ ul{
 
 //header
 
-
+nav.navbar.navbar-inverse{
+	width: 100%;
+}
 #head {
 	  display: flex;
 	  flex-direction: row;
@@ -346,7 +348,11 @@ footer{
 .lastfoot{
 	margin: 30px 0;
 }
-
+@media screen and (min-width: 768px){
+.navbar-nav {
+    float: right;
+    margin: 0;
+}}
 @media screen and (max-width: 768px) {
 	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #101010;
@@ -374,14 +380,9 @@ footer{
 			
 		}}
 	}
-	// .menu{
-	// 	display: flex;
-	// 	justify-content:flex-start;
-	// }
-	// ul.nav.navbar-nav{
-	// 	display: flex;
-	// 	justify-content:flex-start;
-	// }
+	.head{
+		display: block;
+	}
 	#myNavbar{
 		>ul{
 			display: flex;
@@ -416,6 +417,10 @@ footer{
 	border-bottom: 5px solid #39b5ce;
 	border-radius: 5px;
 	margin: 20px 15px 20px;
+	}
+	.logo{
+		display: block;
+		margin-right: 400px;
 	}
 section.middlesec{
 	padding-bottom: 50px;
@@ -521,6 +526,7 @@ section.middlesec{
     		}
 		}
 	}
+
 	ul.dropdown-menu{
 		border-bottom: 3px solid @clho;
 	}
