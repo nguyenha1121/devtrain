@@ -269,7 +269,16 @@ footer > div > div {
 .lastfoot {
   margin: 30px 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border-color: #101010;
+    width: 500px;
+    justify-content: flex-start;
+  }
+  .d2 {
+    font-size: 13px;
+  }
   .inner {
     position: absolute;
     background: rgba(42, 172, 200, 0.85);
@@ -288,9 +297,15 @@ footer > div > div {
     font-size: 20px;
     color: #fff;
   }
-  #myNavbar ul {
+  #myNavbar > ul {
     display: flex;
     flex-direction: column;
+  }
+  #myNavbar > ul > li {
+    width: 200px;
+  }
+  ul.dropdown-menu {
+    border-bottom: 3px solid #2aacc8;
   }
   .buttombox {
     padding-top: 30px;
@@ -320,8 +335,11 @@ footer > div > div {
   }
   section.middlesec div ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: column;
+  }
+  section.middlesec div ul li {
+    width: 100%;
   }
   li.tops {
     margin-right: 0px;
@@ -332,8 +350,45 @@ footer > div > div {
   li.bott {
     margin-left: 0px;
   }
+  footer > div > div {
+    flex-wrap: wrap;
+  }
+  footer > div > div #i1 {
+    width: 100%;
+    height: auto;
+  }
+  footer > div > div #i2 {
+    width: 100%;
+    height: auto;
+  }
+  footer > div > div #i3 {
+    width: 100%;
+    height: auto;
+  }
+  footer > div > div #i4 {
+    width: 100%;
+    height: auto;
+  }
+  footer > div > div #i5 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+  }
+  footer > div > div #i5 .imgs {
+    display: flex;
+    justify-content: flex-start;
+  }
+  footer > div > div #i5 > div {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .d2 {
+    font-size: 13px;
+  }
   .inner {
     position: absolute;
     background: rgba(42, 172, 200, 0.85);
@@ -353,6 +408,25 @@ footer > div > div {
   #myNavbar > ul {
     display: flex;
     flex-direction: column;
+  }
+  #myNavbar > ul > li {
+    width: 200px;
+  }
+  ul.dropdown-menu {
+    border-bottom: 3px solid #2aacc8;
+  }
+  .buttombox {
+    padding-top: 30px;
+  }
+  .buttombox div > div {
+    background: #e8fcfe;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid #81e4ed;
+  }
+  .buttombox div > div p {
+    margin: 30px 20px 25px;
   }
   .buttombox {
     padding-top: 30px;
@@ -386,16 +460,16 @@ footer > div > div {
     flex-wrap: wrap;
   }
   section.middlesec div ul li {
-    width: 40%;
+    width: 45%;
   }
   li.tops {
-    margin-right: 20%;
+    margin-right: 10%;
   }
   li.midd {
     margin: 0px;
   }
   li.bott {
-    margin-left: 20%;
+    margin-left: 10%;
   }
   .clients {
     margin-left: 0;
@@ -615,7 +689,7 @@ body {
 }
 .nopad input {
   width: 100%;
-  height: 30px;
+  height: 40px;
   border: 1px solid #000;
 }
 .nopad textarea {
